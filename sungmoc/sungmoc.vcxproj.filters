@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\BJ. While">
       <UniqueIdentifier>{17d76af3-ebf2-496c-b5f2-b56d3f058f72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BJ. 1차원배열">
+      <UniqueIdentifier>{c5579937-765c-4575-8dcc-fd2d6f031833}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="44 sep.c">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="BJ1110.c">
       <Filter>소스 파일\BJ. While</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ10818.c">
+      <Filter>소스 파일\BJ. 1차원배열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
