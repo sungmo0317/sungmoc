@@ -87,5 +87,14 @@
     <ClCompile Include="BJ10818.c">
       <Filter>소스 파일\BJ. 1차원배열</Filter>
     </ClCompile>
+    <ClCompile Include="BJ2562.c">
+      <Filter>소스 파일\BJ. 1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ2577.c">
+      <Filter>소스 파일\BJ. 1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ3052.c">
+      <Filter>소스 파일\BJ. 1차원배열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
