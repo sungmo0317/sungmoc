@@ -2,22 +2,24 @@
 #include <stdio.h>
 
 int main() {
-    int fn=0,i=0, arr[9]={0,}, sum=0, arr1[9]={0,},n1=0;
-    
-    for (i=0;i<10;i++) {
-        scanf("%d", &arr[i]);
+    int i = 0, j = 0, num[10] = { 0, }, c = 10;
+
+    for (i = 0; i < 10; i++) {
+        scanf("%d", &num[i]);
+        num[i] = num[i] % 42;
     }
-    for (i=0;i<10;i++) {
-        sum=42%arr[i];
-        arr1[i]=sum;
-    }
-    for (i=0;i<10;i++) {
-        if(i==0) {
-            n1=arr1[i];
-        }
-        else if (n1!=arr1[i]) {
-            fn+=1;
+
+    for (i = 0; i < 10; i++) {
+        for (j = i+1; j < 10; j++) {
+            if (num[i] == num[j]) {
+                num[j] = 43;
+            }
         }
     }
-    printf("%d", fn);
+    for (i = 0; i < 10; i++) {
+        if (num[i] == 43) {
+            c--;
+        }
+    }
+    printf("%d", c);
 }
