@@ -12,65 +12,11 @@ int main() {
         arr1[i]=sum;
     }
     for (i=0;i<10;i++) {
-        if (i==0) {
+        if(i==0) {
             n1=arr1[i];
-            if (arr[i] != n1) {
-                fn+=1;
-            }
         }
-        else if (i==1) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            } 
-        }
-        else if (i==2) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==3) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==4) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==5) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==6) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==7) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else if (i==8) {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
-        }
-        else {
-            if (arr[i] != n1) {
-                fn+=1;
-                n1=arr1[i];
-            }
+        else if (n1!=arr1[i]) {
+            fn+=1;
         }
     }
     printf("%d", fn);
