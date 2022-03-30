@@ -35,6 +35,6 @@ int hansu(a) {
 int main() {
     int a=0, sum=0;
     scanf("%d", &a);
-    sum=hansu(a);
-    printf("%d", sum);
+    //sum=hansu(a);
+    printf("%d",hansu(a));
 }
