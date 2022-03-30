@@ -23,7 +23,7 @@ int hansu(a) {
             output=output+1;
         }
         else if (jaritsu==3) {
-            if (deungcha[0]-deungcha[1]==deungcha[1]-deungcha[2]) {
+            if (deungcha[2]-deungcha[1]==deungcha[1]-deungcha[0]) {
                 output=output+1;
             }
         }
