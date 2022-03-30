@@ -4,15 +4,16 @@
 #include <stdbool.h>
 
 int hansu(a) {
-    int i=0,d1=0,d2=0,d3=0,d4=0,sum=0,namuji=0,mok=0, deungcha[4]={0,},jaritsu=0,ic=0,output=0;
+    int i=0,j=0,d1=0,d2=0,d3=0,d4=0,sum=0,namuji=0,mok=0, deungcha[4]={0,},jaritsu=0,ic=0,output=0;
     
-    for (i=0;i<=a;i++) {
+    for (i=1;i<=a;i++) {
         ic=i;
+        jaritsu=0;
         while(ic!=0) {
             ic=ic/10;
             jaritsu=jaritsu+1;
         }
-        for (i=0; i<=jaritsu; i++) {
+        for (j=1; j<=jaritsu; j++) {
             mok=i;
             namuji=mok%10;
             mok=mok/10;
