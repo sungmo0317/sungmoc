@@ -27,7 +27,7 @@ int hansu(a) {
         
         if (jaritsu == 3) {
             if ((deungcha[3] - deungcha[2]) == (deungcha[2] - deungcha[1])) {
-                output = output + 1;
+                output = output + 1; //j에다가는 1부터 저장해놓고 비교는 0부터해서 틀렸었음
             }
         }
         i = i + 1;
